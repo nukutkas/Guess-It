@@ -6,17 +6,29 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="18022"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Rectangle-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Guess_It_WatchKit_App" customModuleProvider="target">
+                <controller backgroundImage="Rectangle" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Guess_It_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" verticalAlignment="center" text="Label" id="HXg-ey-RLR"/>
+                        <group width="1" alignment="center" verticalAlignment="center" layout="vertical" id="igw-hj-63t">
+                            <items>
+                                <label width="0.90000000000000002" alignment="center" verticalAlignment="center" text="Джентлемены удачи" textAlignment="center" numberOfLines="0" id="HXg-ey-RLR">
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                </label>
+                                <button width="1" alignment="left" verticalAlignment="center" title="🎩🍀" id="Var-F4-ExG">
+                                    <fontDescription key="font" type="system" pointSize="26"/>
+                                </button>
+                            </items>
+                        </group>
                     </items>
-                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </controller>
             </objects>
             <point key="canvasLocation" x="43" y="-37"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Rectangle" width="300" height="300"/>
+    </resources>
 </document>
