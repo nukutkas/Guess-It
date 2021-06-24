@@ -10,7 +10,9 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-
+    @IBOutlet var myLabel: WKInterfaceLabel!
+    @IBOutlet var myButton: WKInterfaceButton!
+    
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
     }

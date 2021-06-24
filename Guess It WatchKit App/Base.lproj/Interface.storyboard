@@ -23,6 +23,10 @@
                         </group>
                     </items>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="myButton" destination="Var-F4-ExG" id="5nG-3l-7M4"/>
+                        <outlet property="myLabel" destination="HXg-ey-RLR" id="1Fs-pT-DLm"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="43" y="-37"/>
