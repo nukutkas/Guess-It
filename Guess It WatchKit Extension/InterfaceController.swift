@@ -14,11 +14,18 @@ class InterfaceController: WKInterfaceController {
     
     @IBOutlet var myButton: WKInterfaceButton!
     
+    let movies = FilmModel.getFilms()
+    var element: FilmModel?
+    
+    
     override func awake(withContext context: Any?) {
-        // Configure interface objects here.
+        element = movies.randomElement()
+        myLabel.setText("")
+        myButton.setTitle(element?.emojis)
     }
     
     @IBAction func refreshAction() {
+        myLabel.setText(element?.name)
     }
     
 
