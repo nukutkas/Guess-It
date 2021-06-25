@@ -11,18 +11,15 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
     @IBOutlet var myLabel: WKInterfaceLabel!
+    
     @IBOutlet var myButton: WKInterfaceButton!
     
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
     }
     
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
+    @IBAction func refreshAction() {
     }
     
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-    }
 
 }

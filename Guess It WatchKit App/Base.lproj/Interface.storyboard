@@ -18,6 +18,9 @@
                                 </label>
                                 <button width="1" alignment="left" verticalAlignment="center" title="🎩🍀" id="Var-F4-ExG">
                                     <fontDescription key="font" type="system" pointSize="26"/>
+                                    <connections>
+                                        <action selector="refreshAction" destination="AgC-eL-Hgc" id="SgX-A1-jKY"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
