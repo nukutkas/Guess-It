@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E58453C12688FDF900D94D05 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E58453BF2688FDF900D94D05 /* Screenshot01.png */; };
 		E58453C22688FDF900D94D05 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E58453C02688FDF900D94D05 /* Screenshot02.png */; };
+		E58453C42688FF4600D94D05 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E58453C32688FF4600D94D05 /* README.md */; };
 		E58508B02682603D0075744E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58508AF2682603D0075744E /* AppDelegate.swift */; };
 		E58508B22682603D0075744E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58508B12682603D0075744E /* SceneDelegate.swift */; };
 		E58508B42682603D0075744E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58508B32682603D0075744E /* ViewController.swift */; };
@@ -71,6 +72,7 @@
 /* Begin PBXFileReference section */
 		E58453BF2688FDF900D94D05 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		E58453C02688FDF900D94D05 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		E58453C32688FF4600D94D05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E58508AC2682603D0075744E /* Guess It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58508AF2682603D0075744E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E58508B12682603D0075744E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				E58453BA2688FD9F00D94D05 /* Screenshots */,
+				E58453C32688FF4600D94D05 /* README.md */,
 				E58508AE2682603D0075744E /* Guess It */,
 				E58508C42682603E0075744E /* Guess It WatchKit App */,
 				E58508D32682603F0075744E /* Guess It WatchKit Extension */,
@@ -278,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58453C42688FF4600D94D05 /* README.md in Resources */,
 				E58508BC2682603E0075744E /* LaunchScreen.storyboard in Resources */,
 				E58508B92682603E0075744E /* Assets.xcassets in Resources */,
 				E58453C12688FDF900D94D05 /* Screenshot01.png in Resources */,
