@@ -19,7 +19,6 @@ class InterfaceController: WKInterfaceController {
     
     private var timer: Timer?
     
-    
     override func awake(withContext context: Any?) {
         element = movies.randomElement()
         myLabel.setText("")
