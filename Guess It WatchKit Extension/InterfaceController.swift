@@ -8,7 +8,6 @@
 import WatchKit
 import Foundation
 
-
 class InterfaceController: WKInterfaceController {
     @IBOutlet var myLabel: WKInterfaceLabel!
     
@@ -35,6 +34,4 @@ class InterfaceController: WKInterfaceController {
             self.myLabel.setText("")
         })
     }
-    
-
 }
